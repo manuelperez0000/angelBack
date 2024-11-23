@@ -9,7 +9,7 @@ app.use(morgan('dev'))
 app.use(cors())
 app.use(express.json())
 
-app.get('/', (req, res) => res.send("Welcome 2"))
+app.get('/', (req, res) => res.send("Welcome 66"))
 
 
 app.listen(PORT, () => console.log(`Servidor escuchando en el puerto ${PORT}`))
